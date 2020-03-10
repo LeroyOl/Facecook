@@ -1,8 +1,3 @@
-<?php
-namespace facecook; 
-require '../log.php' ?>
-
-
 <!doctype html>
 <html lang="en">
 
@@ -15,11 +10,13 @@ require '../log.php' ?>
   <title>Signin Template · Bootstrap</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/sign-in/">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  
+  <script src="../Traitement/modif.js"></script>
+  
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
   <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -51,5 +48,5 @@ require '../log.php' ?>
   <link href="signin.css" rel="stylesheet">
 </head>
 <body>
-    <p>lalalal</p>
-</body>
+  
+<?php include_once 'nav.php';  

@@ -1,14 +1,46 @@
-.form-signin{
+.form-log{
     width: 100%;
     max-width: 330px;
     padding: 15px;
     margin: auto;
 }
+.form-signin{
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    margin: auto;
+}
 body{
     display:flex;
-    align-items: center;
-    padding-top: 40px;
+    flex-direction: column;
     padding-bottom: 40px;
     height: 100vh;
 
+}
+.error{
+    color:red;
+}
+.pictProfil{
+    height: 60px;
+    width: 60px;
+}
+
+.modifProfil{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.informations{
+    background-color: rgb(245, 253, 255);
+}
+.mesRecette{
+    background-color: rgb(245, 255, 253);
+}
+.modifp {
+	display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+.modif{
+    align-items: center;
 }

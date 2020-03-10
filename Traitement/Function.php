@@ -1,7 +1,5 @@
 <?php
-
 namespace facecook;
-
 session_start();
 
 function getUtName($var, $POST)
@@ -32,7 +30,7 @@ function getUtMdp($var, $POST)
 }
 function log($utilisateurs,$postEmail,$postMdp){
     for($i=0; $i < count($utilisateurs); $i++){
-        if($utilisateurs[$i]->email == $postEmail && $utilisateurs[$i]->mdp== $postMdp){
+        if($utilisateurs[$i]->email == $postEmail && $utilisateurs[$i]->mdp == $postMdp){
             return true;
         }
     }
